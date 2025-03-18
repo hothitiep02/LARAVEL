@@ -38,7 +38,7 @@
       @foreach($products as $product)
       <tr class="products-list-admin">
         <th scope="row">{{$product->id}}</th>
-        <th><img src="source/image/product/{{$product->image}}" alt="image" style="height: 100px;" /></th>
+        <th><img src="source/image/product/{{$product->image}}" alt="image" style="height: 100px; width:100px" /></th>
         <td>{{$product->name}}</td>
         <td>{{$product->id_type}}</td>
         <td>{{$product->description}}</td>
