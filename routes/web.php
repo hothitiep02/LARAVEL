@@ -32,3 +32,15 @@ Route::post('/admin-edit', [PageController::class, 'postAdminEdit']);
 Route::post('/admin-delete/{id}', [PageController::class, 'postAdminDelete']);
 
 Route::get('/admin-export', [PageController::class, 'exportAdminProduct']);
+
+Route::post('/search', [PageController::class, 'postSearch'])->name('search');
+
+//USER
+use App\Http\Controllers\RegisterController;
+
+Route::post('/register', [RegisterController::class, 'register'])->name('register');
+Route::get('/register', [RegisterController::class, 'showregister']);
+
+Route::get('/login', [RegisterController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [RegisterController::class, 'login']);
+Route::post('/logout', [RegisterController::class, 'logout'])->name('logout');

@@ -34,7 +34,7 @@
                     <div>
                         <div class="row">
                             <div class="col-sm-5">
-                                <img src="assets/dest/images/history.jpg" alt="">
+                                <img src="\source\assets\dest\images\image1.png" alt="">
                             </div>
                             <div class="col-sm-7">
                                 <h5 class="other-title">Birth.</h5>
@@ -51,7 +51,7 @@
                     <div>
                         <div class="row">
                             <div class="col-sm-5">
-                                <img src="assets/dest/images/history.jpg" alt="">
+                                <img src="\source\assets\dest\images\image4.png" alt="">
                             </div>
                             <div class="col-sm-7">
                                 <h5 class="other-title">Web Design</h5>
@@ -68,7 +68,7 @@
                     <div>
                         <div class="row">
                             <div class="col-sm-5">
-                                <img src="assets/dest/images/history.jpg" alt="">
+                                <img src="\source\assets/dest/images/image1.png" alt="">
                             </div>
                             <div class="col-sm-7">
                                 <h5 class="other-title">Web Development</h5>
@@ -85,7 +85,7 @@
                     <div>
                         <div class="row">
                             <div class="col-sm-5">
-                                <img src="assets/dest/images/history.jpg" alt="">
+                                <img src="\source\assets/dest/images/image4.png" alt="">
                             </div>
                             <div class="col-sm-7">
                                 <h5 class="other-title">Photoshop</h5>
@@ -102,7 +102,7 @@
                     <div>
                         <div class="row">
                             <div class="col-sm-5">
-                                <img src="assets/dest/images/history.jpg" alt="">
+                                <img src="\source\assets/dest/images/image1.png" alt="">
                             </div>
                             <div class="col-sm-7">
                                 <h5 class="other-title">Skill</h5>
@@ -119,7 +119,7 @@
                     <div>
                         <div class="row">
                             <div class="col-sm-5">
-                                <img src="assets/dest/images/history.jpg" alt="">
+                                <img src="\source\assets/dest/images/image4.png" alt="">
                             </div>
                             <div class="col-sm-7">
                                 <h5 class="other-title">Project.</h5>
@@ -136,7 +136,7 @@
                     <div>
                         <div class="row">
                             <div class="col-sm-5">
-                                <img src="assets/dest/images/history.jpg" alt="">
+                                <img src="\source\assets/dest/images/image1.png" alt="">
                             </div>
                             <div class="col-sm-7">
                                 <h5 class="other-title">Coffe</h5>

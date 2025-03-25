@@ -9,6 +9,7 @@ use App\Models\Product;
 use App\Models\TypeProduct;
 use App\Models\Slide;
 use App\Models\BillDetail;
+use App\Models\User;
 
 class PageController extends Controller
 {   
@@ -128,6 +129,17 @@ class PageController extends Controller
         $product = Product::find($id);
         $product->delete();
         return $this->getIndexAdmin();
+    }
+
+   
+    public function postSearch(Request $request)
+    {
+        $query = $request->input('query');
+
+        $products = Product::where('name', 'like', "%$query%")
+                            ->orWhere('description', 'like', "%$query%")
+                            ->paginate(4);
+        return view('page.search', compact('products'));
     }
 
 }
